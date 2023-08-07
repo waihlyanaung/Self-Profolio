@@ -41,7 +41,7 @@ const Home = () => {
                 </p>
                 <div className=" flex gap-5">
                   <Link to={"portfolio"}>
-                    <button className=" opacity-90 transition duration-500 ease-in-out bg-[#D9832E] px-[20px] lg:px-[40px] lg:py-[15px] py-[12px] text-white text-[16px] tracking-wider hover:bg-black">
+                    <button className=" opacity-90 transition duration-500 ease-in-out bg-[#D9832E] px-[20px] lg:py-[17px] lg:px-[40px] py-[12px] text-white text-[16px] tracking-wider hover:bg-black">
                       MY WORK
                     </button>
                   </Link>
