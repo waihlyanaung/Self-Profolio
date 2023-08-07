@@ -11,7 +11,7 @@ const Navbar = ({setSidebarOpen,sidebarOpen}) => {
       <div className="flex bg-white w-screen justify-between">
         <div className=" text-[#D9832E] px-2 py-3  flex">
       < div className='w-[25%]'><img src={icon} className=' w-[90%] '/></div> 
-         <div>  <a className=' text-[25px] font-[600] ' href="/">Wai Hlyan Aung</a></div> 
+         <div className='mt-2'>  <a className=' sm:text-[25px]  font-[600] ' href="/">Wai Hlyan Aung</a></div> 
         </div>
         <div className="bg-[#D9832E] h-12 mt-2 mx-5">
           <button className=" px-2 py-3" onClick={handler}>

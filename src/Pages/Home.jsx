@@ -14,23 +14,23 @@ const Home = () => {
             {/* contact */}
             <div className=" flex justify-center">
               <div className=" mt-[120px] ml-10 mr-10 bg-stone-50 lg:bg-white pl-5 pb-5">
-                <h1 className=" text-[#090A23] text-[30px] md:text-[60px] lg:text-[60px] font-[600]">
+                <h1 className=" text-[#090A23] text-[17px] sm:text-[30px] font-[600]">
                   MRs WAI HLYAN AUNG
                 </h1>
-                <div className=" flex items-center mb-5 text-[20px] md:text-[23px] lg:text-[25px]">
-                  <h1 className=" font-[500] mr-2">I Am Passionate </h1>
+                <div className=" flex items-center mb-5 text-[10px] sm:block  sm:text-[30px]">
+                  {/* <h1 className=" text-lg  mr-2">I Am Passionate </h1> */}
                   <TypeAnimation
                     sequence={[
                       // Same substring at the start will only be typed once, initially
-                      "Frontend Developer",
+                      "Next JS Developer",
                       1000,
-                      " React Developer",
+                      " React  Developer",
                       1000,
                     ]}
                     speed={20}
-                    className=" border-b-2 border-orange-800"
+                    className="text-[20px] border-b-2 border-orange-800" // Adjust font size using tailwind CSS classes
                     deletionSpeed={5}
-                    // style={{ fontSize: '25px' }}
+                    
                     repeat={Infinity}
                   />
                 </div>
