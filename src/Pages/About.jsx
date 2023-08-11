@@ -63,7 +63,7 @@ const About = () => {
       <div className="text-sm font-semibold">Date of Birth</div>
     </td>
     <td>
-      <div class="text-[#555a64] text-sm">25 AUG 1998</div>
+      <div class="text-[#555a64] text-sm sm:ml-12">25 AUG 1998</div>
     </td>
   </tr>
   <tr>
@@ -71,7 +71,7 @@ const About = () => {
       <div className="text-sm font-semibold">Passport No</div>
     </td>
     <td>
-      <div class="text-[#555a64] text-sm">MH150498</div>
+      <div class="text-[#555a64] text-sm sm:ml-12">MH150498</div>
     </td>
   </tr>
   <tr>
@@ -79,7 +79,7 @@ const About = () => {
       <div className="text-sm font-semibold">Nationality</div>
     </td>
     <td>
-      <div class="text-[#555a64] text-sm">Myanmar</div>
+      <div class="text-[#555a64] text-sm sm:ml-12">Myanmar</div>
     </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ const About = () => {
       <div className="text-sm font-semibold">Address</div>
     </td>
     <td>
-      <div class="text-[#555a64] text-sm">YANGON</div>
+      <div class="text-[#555a64] text-sm sm:ml-12">YANGON</div>
     </td>
   </tr>
   <tr>
@@ -95,15 +95,15 @@ const About = () => {
       <div className="text-sm font-semibold">Marital Status</div>
     </td>
     <td>
-      <div class="text-[#555a64] text-sm">Single</div>
+      <div class="text-[#555a64] text-sm sm:ml-12">Single</div>
     </td>
   </tr>
   <tr>
     <td>
-      <div className="text-sm font-semibold">Expected Salary</div>
+      <div className="text-sm font-semibold">Experience</div>
     </td>
     <td>
-      <div class="text-[#555a64] text-sm">US-700$</div>
+      <div class="text-[#555a64] text-sm sm:ml-12">1 year</div>
     </td>
   </tr>
   <tr>
@@ -111,7 +111,7 @@ const About = () => {
       <div className="text-sm font-semibold">Availability</div>
     </td>
     <td>
-      <div class="text-[#555a64] text-sm">Immediately</div>
+      <div class="text-[#555a64] text-sm sm:ml-12">Immediately</div>
     </td>
   </tr>
   {/* <tr>
@@ -135,12 +135,13 @@ const About = () => {
                   </div> 
 
                   <div className="flex sm:px-14 mt-2  ">
-                    <div className="sm:w-[19%] w-[38%] text-sm font-semibold">
+                    <div className="sm:w-[19%] w-[38%] text-sm font-semibold ">
                       English 4 Skill
                     </div>
-                    <div class="text-[#555a64] sm:ml-4  text-sm">
+                    <div class="text-[#555a64]   text-sm sm:ml-12">
                       Intermediate
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -212,23 +213,7 @@ const About = () => {
                 />
               </div>
               {/* second flex */}
-              <div className="flex justify-evenly  ">
-                {/* 1 */}
-                <div className="bg-[#E0832E] text-xs font-semibold w-[30%] ">
-                  <div className=" flex justify-center  ">1+</div>
-                  <div className="sm:px-6 ml-1">YEARS OF EXPERIENCES</div>
-                </div>
-                {/* 2 */}
-                <div className="bg-[#E0832E] text-xs font-semibold w-[30%] ">
-                  <div className=" flex justify-center  ">10+</div>
-                  <div className="sm:px-6 ml-2">PROJECTS COMPLETED</div>
-                </div>
-                {/* 3 */}
-                <div className="bg-[#E0832E] text-xs font-semibold w-[30%] ">
-                  <div className=" flex justify-center  ">100+</div>
-                  <div className="sm:px-3 px-3">HAPPY USERS</div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
