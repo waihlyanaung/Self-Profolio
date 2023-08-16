@@ -43,8 +43,8 @@ const Contact = () => {
 
   return (
     <section name='contact'>
-      <div className="mx-10 sm:mx-24 mb-10 sm:flex">
-        <div className="sm:w-[50%] w-[100%]">
+      <div className="mx-10 sm:mt-12   sm:mx-24 mb-10 sm:flex">
+        <div data-aos="fade-down-right" className="sm:w-[50%] w-[100%]">
           <form
             ref={form}
             onSubmit={sendEmail}

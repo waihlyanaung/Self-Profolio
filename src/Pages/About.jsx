@@ -10,8 +10,8 @@ const About = () => {
     <section name="about">
       <div className="flex justify-center">
         {/* About Gp */}
-        <div className="bg-white sm:w-[100%] w-[100%]  sm:h-[700px]   px-8 py-10 ">
-          <div className="text-2xl md:text-4xl tracking-tight uppercase font-semibold relative inline-block align-top z-10 mb-[10px] py-[10px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#d9832e] after:w-[50px]">
+        <div className="bg-white sm:w-[100%] w-[100%]   mt-8 sm:mt-0 sm:h-[550px]   px-8  ">
+          <div data-aos="zoom-out-right" className="text-2xl md:text-4xl tracking-tight uppercase font-semibold relative inline-block align-top z-10 mb-[10px] py-[10px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#d9832e] after:w-[50px]">
             ABOUT ME
           </div>
           {/* <p className="text-sm font-normal text-[#555a64] mt-5">
@@ -19,7 +19,7 @@ const About = () => {
           </p> */}
           {/* img */}
           <div className="sm:flex flex-wrap ">
-            <div className=" sm:flex sm:w-[40%] w-[100%]  ">
+            <div data-aos="flip-left" className=" sm:flex sm:w-[40%] w-[100%]  ">
               {/* relative group */}
 
               <img
@@ -28,7 +28,7 @@ const About = () => {
               />
             </div>
             {/* Tony Smith */}
-            <div className="sm:w-[60%] w-[100%]">
+            <div data-aos="fade-down" className="sm:w-[60%] w-[100%] ">
               <div className="flex">
                 <img
                   src={reacticon}
@@ -58,63 +58,83 @@ const About = () => {
                 <div className="ml-[10%] sm:ml-14">
                   {/* birthday group */}
                   <table>
-  <tr>
-    <td>
-      <div className="text-sm font-semibold">Date of Birth</div>
-    </td>
-    <td>
-      <div class="text-[#555a64] text-sm sm:ml-12">25 AUG 1998</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div className="text-sm font-semibold">Passport No</div>
-    </td>
-    <td>
-      <div class="text-[#555a64] text-sm sm:ml-12">MH150498</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div className="text-sm font-semibold">Nationality</div>
-    </td>
-    <td>
-      <div class="text-[#555a64] text-sm sm:ml-12">Myanmar</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div className="text-sm font-semibold">Address</div>
-    </td>
-    <td>
-      <div class="text-[#555a64] text-sm sm:ml-12">YANGON</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div className="text-sm font-semibold">Marital Status</div>
-    </td>
-    <td>
-      <div class="text-[#555a64] text-sm sm:ml-12">Single</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div className="text-sm font-semibold">Experience</div>
-    </td>
-    <td>
-      <div class="text-[#555a64] text-sm sm:ml-12">1 year</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div className="text-sm font-semibold">Availability</div>
-    </td>
-    <td>
-      <div class="text-[#555a64] text-sm sm:ml-12">Immediately</div>
-    </td>
-  </tr>
-  {/* <tr>
+                    <tr>
+                      <td>
+                        <div className="text-sm font-semibold">
+                          Date of Birth
+                        </div>
+                      </td>
+                      <td>
+                        <div class="text-[#555a64] text-sm sm:ml-12">
+                          25 AUG 1998
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="text-sm font-semibold">Passport No</div>
+                      </td>
+                      <td>
+                        <div class="text-[#555a64] text-sm sm:ml-12">
+                          MH150498
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="text-sm font-semibold">Nationality</div>
+                      </td>
+                      <td>
+                        <div class="text-[#555a64] text-sm sm:ml-12">
+                          Myanmar
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="text-sm font-semibold">Address</div>
+                      </td>
+                      <td>
+                        <div class="text-[#555a64] text-sm sm:ml-12">
+                          YANGON
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="text-sm font-semibold">
+                          Marital Status
+                        </div>
+                      </td>
+                      <td>
+                        <div class="text-[#555a64] text-sm sm:ml-12">
+                          Single
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="text-sm font-semibold">Experience</div>
+                      </td>
+                      <td>
+                        <div class="text-[#555a64] text-sm sm:ml-12">
+                          1 year
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="text-sm font-semibold">
+                          Availability
+                        </div>
+                      </td>
+                      <td>
+                        <div class="text-[#555a64] text-sm sm:ml-12">
+                          Immediately
+                        </div>
+                      </td>
+                    </tr>
+                    {/* <tr>
     <td>
       <div className="text-sm font-semibold">English 4 skill</div>
     </td>
@@ -122,8 +142,8 @@ const About = () => {
       <div class="text-[#555a64] text-sm">Intermediate</div>
     </td>
   </tr> */}
-</table></div>
-
+                  </table>
+                </div>
 
                 <div className="sm:block hidden">
                   <div className="flex ">
@@ -132,7 +152,7 @@ const About = () => {
                       className="h-[10%] w-[10%]  sm:h-[14%]  sm:w-[7%]  mt-4 sm:mt-0  "
                     />
                     <div className="mt-4 text-[#E88534] sm:h-5">Languages</div>
-                  </div> 
+                  </div>
 
                   <div className="flex sm:px-14 mt-2  ">
                     <div className="sm:w-[19%] w-[38%] text-sm font-semibold ">
@@ -141,7 +161,6 @@ const About = () => {
                     <div class="text-[#555a64]   text-sm sm:ml-12">
                       Intermediate
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -153,7 +172,7 @@ const About = () => {
         </div>
       </div>
       {/* my skill Gp */}
-      <div className="flex justify-center my-28">
+      <div data-aos="zoom-in" className="flex justify-center my-20">
         <div className="h-[390px] sm:w-[92%] w-[100%] ">
           <div className="text-black text-4xl font-bold px-4">MY SKILLS</div>
           <p className="text-sm font-normal text-[#555a64] px-4 mt-6">
@@ -213,7 +232,6 @@ const About = () => {
                 />
               </div>
               {/* second flex */}
-              
             </div>
           </div>
         </div>

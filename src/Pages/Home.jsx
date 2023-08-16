@@ -14,7 +14,7 @@ const Home = () => {
             {/* contact */}
             <div className=" flex justify-center">
               <div className=" mt-[120px] ml-10 mr-10 bg-stone-50 lg:bg-white pl-5 pb-5">
-                <h1 className=" text-[#090A23] text-[17px] sm:text-[30px] font-[600]">
+                <h1 data-aos="fade-down-left" className=" text-[#090A23] text-[17px] sm:text-[30px] font-[600]">
                   MRs WAI HLYAN AUNG
                 </h1>
                 <div className=" flex items-center mb-5 text-[10px] sm:block  sm:text-[30px]">

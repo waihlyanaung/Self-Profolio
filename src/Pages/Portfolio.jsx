@@ -18,19 +18,19 @@ import { Autoplay } from "swiper/modules";
 const Portfolio = () => {
   return (
     <section name="portfolio" className="">
-      <div className="portfolio py-20 ">
-        <div className="title container pt-[90px] pb-[40px] px-8 md:px-20">
-          <h3 className=" text-2xl md:text-4xl tracking-tight uppercase font-semibold relative inline-block align-top z-10 mb-[10px] py-[10px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#d9832e] after:w-[50px]">
+      <div className="portfolio  ">
+        <div className="title container pt-[30px] pb-[40px] px-8 md:px-20">
+          <h3 data-aos="fade-down-left" className=" text-2xl md:text-4xl tracking-tight uppercase font-semibold relative inline-block align-top z-10 mb-[10px] py-[10px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#d9832e] after:w-[50px]">
             Latest Works
           </h3>
-          <p className=" text-slate-600 md:tracking-wider text-sm">
+          <p data-aos="zoom-in" className=" text-slate-600 md:tracking-wider text-sm">
             A JUNIOR WEB DEVELOPER <br className=" block md:hidden" /> BASED IN
             MYANMAR
           </p>
         </div>
         <div className=" container md:px-10">
           <div className=" grid z-[-1] md:grid-cols-3 gap-8 mx-10 ">
-            <div>
+            <div data-aos="zoom-out">
               {/* game */}
               <a
                 href="https://game-platform-tawny.vercel.app/"
@@ -69,141 +69,147 @@ const Portfolio = () => {
               </a>
             </div>
             {/* Contact */}
-            <a
-              href="https://contact-app-7mg5.vercel.app/"
-              className=" link-overlay"
-              target="_blank"
-            >
-              <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
-                <img
-                  src={contactImage}
-                  className="w-full h-[350px] object-cover transition duration-700 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
-                  alt=""
-                />
-                <div>
-                  <div className="absolute top-[20%] left-[20%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                    {" "}
-                    <h3 className=" text-slate-100 text-2xl">CONTACT APP</h3>
-                  </div>
-                  <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                    {" "}
-                    <p className=" text-slate-100">
-                      Using react tailwind react-icons react-router-dom
-                      react-redux react-toastify reduxjs-toolkit mantine react
-                      lottie{" "}
-                    </p>
+            <div data-aos="zoom-out">
+              <a
+                href="https://contact-app-7mg5.vercel.app/"
+                className=" link-overlay"
+                target="_blank"
+              >
+                <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
+                  <img
+                    src={contactImage}
+                    className="w-full h-[350px] object-cover transition duration-700 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
+                    alt=""
+                  />
+                  <div>
+                    <div className="absolute top-[20%] left-[20%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <h3 className=" text-slate-100 text-2xl">CONTACT APP</h3>
+                    </div>
+                    <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <p className=" text-slate-100">
+                        Using react tailwind react-icons react-router-dom
+                        react-redux react-toastify reduxjs-toolkit mantine react
+                        lottie{" "}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex justify-around bg-gray-300">
-                <div className=" py-4">
-                  {" "}
-                  <CustomizeButton> To View </CustomizeButton>
+                <div className="flex justify-around bg-gray-300">
+                  <div className=" py-4">
+                    {" "}
+                    <CustomizeButton> To View </CustomizeButton>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
             {/* dashboard   src={dashboardImage} href="https://admin-dashboard-xi-one.vercel.app/" */}
-            <a
-              href="https://admin-dashboard-xi-one.vercel.app/"
-              className=" link-overlay"
-              target="_blank"
-            >
-              <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
-                <img
-                  src={dashboardImage}
-                  className="w-full h-[350px] object-cover transition duration-700 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
-                  alt=""
-                />
-                <div>
-                  <div className="absolute top-[20%] left-[20%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                    {" "}
-                    <h3 className=" text-slate-100 text-2xl">DASHBOARD </h3>
-                  </div>
-                  <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                    {" "}
-                    <p className=" text-slate-100">
-                      Using react tailwind react-icons react-router-dom
-                      react-redux react-charjs{" "}
-                    </p>
+            <div data-aos="zoom-out">
+              <a
+                href="https://admin-dashboard-xi-one.vercel.app/"
+                className=" link-overlay"
+                target="_blank"
+              >
+                <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
+                  <img
+                    src={dashboardImage}
+                    className="w-full h-[350px] object-cover transition duration-700 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
+                    alt=""
+                  />
+                  <div>
+                    <div className="absolute top-[20%] left-[20%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <h3 className=" text-slate-100 text-2xl">DASHBOARD </h3>
+                    </div>
+                    <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <p className=" text-slate-100">
+                        Using react tailwind react-icons react-router-dom
+                        react-redux react-charjs{" "}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex justify-around bg-gray-300">
-                <div className=" py-4">
-                  {" "}
-                  <CustomizeButton> To View </CustomizeButton>
+                <div className="flex justify-around bg-gray-300">
+                  <div className=" py-4">
+                    {" "}
+                    <CustomizeButton> To View </CustomizeButton>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
 
             {/* hotel */}
-
-            <a
-              href="https://hotel-website-team-1bjeg7wno-khant-nyar-ko-ko.vercel.app/"
-              className=" link-overlay"
-              target="_blank"
-            >
-              <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
-                <img
-                  src={programImage}
-                  className="w-full h-[350px] object-cover transition duration-1000 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
-                  alt=""
-                />
-                <div>
-                  <div className="absolute top-[20%] left-[30%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                    
-                    <h3 className=" text-slate-100 text-2xl">HOTEL</h3>
-                  </div>
-                  <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                  
-                    <p className=" text-slate-100 ">
-                      Using animate.css framer-motion react-datepicker
-                      react-icons react-router-dom swiper
-                    </p>
+            <div data-aos="zoom-out">
+              <a
+                href="https://hotel-website-team-1bjeg7wno-khant-nyar-ko-ko.vercel.app/"
+                className=" link-overlay"
+                target="_blank"
+              >
+                <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
+                  <img
+                    src={programImage}
+                    className="w-full h-[350px] object-cover transition duration-1000 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
+                    alt=""
+                  />
+                  <div>
+                    <div className="absolute top-[20%] left-[30%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      <h3 className=" text-slate-100 text-2xl">HOTEL</h3>
+                    </div>
+                    <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      <p className=" text-slate-100 ">
+                        Using animate.css framer-motion react-datepicker
+                        react-icons react-router-dom swiper
+                      </p>
+                    </div>
                   </div>
                 </div>
-
-              </div>
-              <div className="flex justify-around bg-gray-300">
-                <div className=" py-4">
-                  {" "}
-                  <CustomizeButton> To View </CustomizeButton>
+                <div className="flex justify-around bg-gray-300">
+                  <div className=" py-4">
+                    {" "}
+                    <CustomizeButton> To View </CustomizeButton>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
             {/*Architecture  src={programImage2}  href="https://team-l-contact.netlify.app"*/}
-            <a
-              href="https://bauen-architecture-and-interior-theme.netlify.app/"
-              className=" link-overlay"
-              target="_blank"
-            >
-              <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
-                <img
-                  src={programImage2}
-                  className="w-full h-[350px] object-cover transition duration-1000 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
-                  alt=""
-                />
-                <div>
-                  <div className="absolute top-[20%] left-[20%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                    {" "}
-                    <h3 className=" text-slate-100 text-2xl">ARCHITECTURE </h3>
-                  </div>
-                  <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
-                    {" "}
-                    <p className=" text-slate-100">
-                      Using react flowbite react-circular-progressbar
-                      react-transition-group swiper{" "}
-                    </p>
+            <div data-aos="zoom-out">
+              <a
+                href="https://bauen-architecture-and-interior-theme.netlify.app/"
+                className=" link-overlay"
+                target="_blank"
+              >
+                <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
+                  <img
+                    src={programImage2}
+                    className="w-full h-[350px] object-cover transition duration-1000 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
+                    alt=""
+                  />
+                  <div>
+                    <div className="absolute top-[20%] left-[20%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <h3 className=" text-slate-100 text-2xl">
+                        ARCHITECTURE{" "}
+                      </h3>
+                    </div>
+                    <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <p className=" text-slate-100">
+                        Using react flowbite react-circular-progressbar
+                        react-transition-group swiper{" "}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex justify-around bg-gray-300">
-                <div className=" py-4">
-                  {" "}
-                  <CustomizeButton> To View </CustomizeButton>
+                <div className="flex justify-around bg-gray-300">
+                  <div className=" py-4">
+                    {" "}
+                    <CustomizeButton> To View </CustomizeButton>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </div>
