@@ -42,7 +42,7 @@ const About = () => {
                   Technological University(Dawei)
                 </div>
                 <div className="flex sm:px-14 sm:mt-1 mt-2 px-4 font-semibold">
-                  Bachelor of Engineering Fifth Year Student (CDM)
+                  Bachelor of Engineering Fifth Year Student 
                 </div>
               </div>
 
@@ -182,7 +182,7 @@ const About = () => {
 
           <div className="sm:flex flex-wrap">
             {/* html group */}
-            <div className="sm:w-[46%] mt-12 ">
+            <div className="sm:w-[46%] mt-4 ">
               {/* html */}
               <div className="flex px-4">
                 <div className="text-semibold">HTML5</div>
@@ -193,7 +193,7 @@ const About = () => {
                 <div className="bg-[#EEEEEE] h-1 w-[13%]"></div>
               </div>
               {/* WordPress */}
-              <div className="flex px-4 mt-9">
+              <div className="flex px-4 mt-4">
                 <div className="font-medium ">CSS</div>
                 <div className=" sm:mx-72 mx-[100px] text-sm">75%</div>
               </div>
@@ -202,7 +202,7 @@ const About = () => {
                 <div className="bg-[#EEEEEE] h-1 w-[35%]"></div>
               </div>
               {/* JAVASCRIPT */}
-              <div className="flex px-4 mt-9">
+              <div className="flex px-4 mt-4">
                 <div className="font-medium ">JAVASCRIPT</div>
                 <div className="sm:mx-[300px] mx-[70px] text-sm">86%</div>
               </div>
@@ -211,8 +211,17 @@ const About = () => {
                 <div className="bg-[#EEEEEE] h-1 w-[21%]"></div>
               </div>
               {/* rEACT */}
-              <div className="flex px-4 mt-9">
+              <div className="flex px-4 mt-4">
                 <div className="font-medium ">REACT</div>
+                <div className="sm:mx-[352px] mx-[120px] text-sm">88%</div>
+              </div>
+              <div className="px-4 mt-2 flex">
+                <div className="bg-[#D9832E] w-[82%] h-1"></div>
+                <div className="bg-[#EEEEEE] h-1 w-[18%]"></div>
+              </div>
+
+              <div className="flex px-4 mt-4">
+                <div className="font-medium ">NextJs</div>
                 <div className="sm:mx-[352px] mx-[120px] text-sm">88%</div>
               </div>
               <div className="px-4 mt-2 flex">

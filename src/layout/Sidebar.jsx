@@ -17,12 +17,14 @@ const TestSideBar = ({setSidebarOpen, sidebarOpen}) => {
         to:'about',
         icon : <FaRegAddressCard size={30} />,
         title: 'ABOUT'
-       },{
-        id:'3',
-        to:'services',
-        icon : <FaConciergeBell size={30} />,
-        title: 'SERVICES'
-       },{
+       },
+      //  {
+      //   id:'3',
+      //   to:'services',
+      //   icon : <FaConciergeBell size={30} />,
+      //   title: 'SERVICES'
+      //  }
+       ,{
         id:'4',
         to:'portfolio',
         icon : <FaBriefcase size={30} />,

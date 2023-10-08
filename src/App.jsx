@@ -6,7 +6,7 @@ import Portfolio from './Pages/Portfolio'
 // import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
 import About from './Pages/About'
-import Services from './Pages/Services'
+// import Services from './Pages/Services'
 import RootLayout from './layout/RootLayout'
 import Loader from './Loader/Loader'
 
@@ -25,7 +25,7 @@ const App = () => {
       <RootLayout>
         <Home/>
         <About />
-        <Services />
+        {/* <Services /> */}
         <Portfolio />
         {/* <Blog /> */}
         <Contact />
