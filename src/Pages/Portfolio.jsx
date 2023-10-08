@@ -1,5 +1,6 @@
 import React from "react";
 import GameImage from "../images/game.png";
+import Pos from "../images/pos1.png";
 import dashboardImage from "../images/dashboard.jpg";
 import contactImage from "../images/contact2.png";
 import programImage from "../images/hotel.png";
@@ -30,6 +31,42 @@ const Portfolio = () => {
         </div>
         <div className=" container md:px-10">
           <div className=" grid z-[-1] md:grid-cols-3 gap-8 mx-10 ">
+          <div data-aos="zoom-out">
+              {/* *Pos */}
+              <a
+                href="https://pos-3.vercel.app/"
+                className=" link-overlay"
+                target="_blank"
+              >
+                <div className=" overflow-hidden relative group bg-black rounded shadow-lg">
+                  <img
+                    src={Pos}
+                    className="w-full h-[350px] object-cover transition duration-1000 ease-in-out delay-300 group-hover:-translate-y-1 group-hover:scale-110 group-hover:opacity-60 "
+                    alt=""
+                  />
+                  <div>
+                    <div className="absolute top-[20%] left-[20%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <h3 className=" text-slate-100 text-2xl">
+                        Point of Sales{" "}
+                      </h3>
+                    </div>
+                    <div className="absolute top-[30%] left-[10%] hidden group-hover:block duration-1000 ease-in-out delay-300">
+                      {" "}
+                      <p className=" text-slate-100">
+                        Using Next Js with Tailwind CSS
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-around bg-gray-300">
+                  <div className=" py-4">
+                    {" "}
+                    <CustomizeButton> To View </CustomizeButton>
+                  </div>
+                </div>
+              </a>
+            </div>
             <div data-aos="zoom-out">
               {/* game */}
               <a
